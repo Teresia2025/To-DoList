@@ -1,0 +1,38 @@
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    text-align: center;
+    margin: 0 auto;
+    width: 50%;
+}
+
+h1 {
+    color: #570f0f;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin: 5px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f7f7f7;
+    padding: 8px;
+    border-radius: 5px;
+}
+
+.deleteTask {
+    background-color: rgb(10, 169, 28);
+    color: rgb(69, 65, 65);
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
